@@ -1,0 +1,25 @@
+@import 'src/assets/styles/variables';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+	> button svg {
+		fill: #fff;
+		stroke: #fff;
+		transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+	}
+
+	> button:hover svg {
+		fill: $accent;
+		stroke: $accent;
+		transition: fill 0.3s ease-in-out, stroke 0.3s ease-in-out;
+	}
+}

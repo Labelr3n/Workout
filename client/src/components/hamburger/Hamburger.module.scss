@@ -1,0 +1,85 @@
+@import 'src/assets/styles/variables';
+@import 'src/assets/styles/animations';
+
+.wrapper {
+	position: relative;
+
+	button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+
+	> button {
+		font-size: 30px;
+
+		svg {
+			fill: white;
+			transition: fill 0.3s ease-in-out;
+		}
+		svg:hover {
+			fill: $accent;
+			transition: fill 0.3s ease-in-out;
+		}
+	}
+
+	.menu {
+		position: absolute;
+		top: calc(100% + 8px);
+		right: 0;
+		background-color: #fff;
+		color: black;
+		padding: 10px 12px;
+		font-size: 14px;
+		box-shadow: $bx-16;
+		border-radius: 10px 0 10px 10px;
+		min-width: 116px;
+		display: none;
+		animation: opacity 0.4s;
+
+		&.show {
+			display: block;
+		}
+
+		> ul {
+			list-style: none;
+			> li {
+				cursor: pointer;
+			}
+			a {
+				color: #000;
+				text-decoration: none;
+				transition: color 0.2s ease;
+
+				&:hover,
+				&.active {
+					color: $accent;
+					margin: 4px 0;
+				}
+			}
+			li > button {
+				display: flex;
+				flex-direction: row;
+				width: 100%;
+				font-size: 16px;
+				justify-content: space-between;
+				align-items: center;
+			}
+			li > button,
+			button svg {
+				color: black;
+				fill: black;
+				transition: fill 0.3s ease-in-out, color 0.3s ease-in-out;
+			}
+			li > button:hover svg {
+				fill: $accent;
+				transition: fill 0.3s ease-in-out, color 0.3s ease-in-out;
+			}
+			li > button:hover {
+				color: $accent;
+				transition: color 0.3s ease-in-out;
+			}
+		}
+	}
+}
