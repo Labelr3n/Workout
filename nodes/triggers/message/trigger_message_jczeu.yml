@@ -2,8 +2,8 @@
 id: trigger_message_jczeu
 name: Сообщение
 position:
-  x: 398
-  y: -31
+  x: 393
+  y: -104
 next-step: null
 parameters:
   placeholder: null
