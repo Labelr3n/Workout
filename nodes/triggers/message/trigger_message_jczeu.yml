@@ -1,0 +1,9 @@
+---
+id: trigger_message_jczeu
+name: Сообщение
+position:
+  x: 420
+  y: 149
+next-step: null
+parameters:
+  placeholder: null
