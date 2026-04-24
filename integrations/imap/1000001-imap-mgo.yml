@@ -1,0 +1,7 @@
+---
+key: 1000001-imap-mgo
+credential-key: 1000001-terte-vfs
+name: test
+host: test
+port: 444
+is-ssl-enabled: false
