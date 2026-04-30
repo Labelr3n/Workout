@@ -1,9 +1,0 @@
----
-id: trigger_message_vbysl
-name: Сообщение
-position:
-  x: 282
-  y: -176
-next-step: null
-parameters:
-  placeholder: null

@@ -1,0 +1,8 @@
+---
+key: 1000001-6342-vvv
+credential-key: 1000001-6342-use
+name: 6342
+host: voip02.lo.test-ai.net
+port: 5060
+lines-available: 3
+accept-incoming: true

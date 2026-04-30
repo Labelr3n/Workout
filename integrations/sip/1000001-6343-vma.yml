@@ -1,0 +1,8 @@
+---
+key: 1000001-6343-vma
+credential-key: 1000001-6343-ail
+name: 6343
+host: voip02.lo.test-ai.net
+port: 5060
+lines-available: 3
+accept-incoming: true

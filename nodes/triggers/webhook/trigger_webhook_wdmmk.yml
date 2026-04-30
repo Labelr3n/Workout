@@ -1,9 +1,0 @@
----
-id: trigger_webhook_wdmmk
-name: Вебхук
-position:
-  x: 366
-  y: 143
-next-step: null
-parameters:
-  url: null
