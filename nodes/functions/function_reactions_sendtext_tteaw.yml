@@ -1,0 +1,18 @@
+---
+id: function_reactions_sendtext_tteaw
+name: Reactions.sendText
+position:
+  x: 623
+  y: -285
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: "{{Context.getLastFunctionResult()}}"
+      filled-ai: false
+  context-config: null

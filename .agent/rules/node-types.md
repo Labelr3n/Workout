@@ -109,9 +109,9 @@ recipients:
 
 ## Code Node (`nodes/code/`)
 
-Executes custom JavaScript or Python code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
+Executes custom JavaScript code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
 - `schema.yml` — node metadata (id, name, position, next-step)
-- `code.js` or `code.py` — implementation file matching `parameters.language` (optional)
+- `code.js` — JavaScript implementation (optional)
 
 ## Condition Node (`nodes/conditions/`)
 
@@ -136,6 +136,7 @@ Evaluates a JavaScript condition and branches the flow.
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `parameters.mock-payload` | webhooktriggerpayloaddto | no | Mock payload used to pre-fill the test-trigger form on the UI |  |
  `parameters.url` | string | no | Webhook URL path for this trigger |  |
 
 ## Trigger: Message (`nodes/triggers/message/`)
@@ -147,6 +148,7 @@ Triggers when a user sends a message. No additional parameters.
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `parameters.filter-rule` | map | no | Email filter rules for IMAP trigger |  |
+ `parameters.mock-payload` | imaptriggerpayloaddto | no | Mock payload used to pre-fill the test-trigger form on the UI |  |
 
 ## Node Layout Rules
 

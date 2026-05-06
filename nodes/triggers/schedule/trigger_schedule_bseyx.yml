@@ -1,0 +1,13 @@
+---
+id: trigger_schedule_bseyx
+name: Планировщик
+position:
+  x: 265
+  y: -630
+next-step: function_reactions_sendtext_tteaw
+parameters:
+  interval-seconds: 60
+  cron: null
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: 2026-05-06T15:08:27.358Z
