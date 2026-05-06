@@ -1,0 +1,26 @@
+---
+id: function_telegram_sendtext_tdshq
+name: Telegram.sendText
+position:
+  x: 605
+  y: -658
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Telegram
+  function: sendText
+  is-tool: false
+  parameters:
+    credentialKey:
+      type: CREDENTIAL
+      value: 1000001-telegram-sce
+      filled-ai: false
+    chatId:
+      type: STRING
+      value: 837249024
+      filled-ai: false
+    text:
+      type: STRING
+      value: Пришло письмо??
+      filled-ai: false
+  context-config: null

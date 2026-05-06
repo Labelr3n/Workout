@@ -4,9 +4,9 @@ name: Планировщик
 position:
   x: 266
   y: -657
-next-step: function_reactions_sendtext_tteaw
+next-step: function_telegram_sendtext_tdshq
 parameters:
-  interval-seconds: 3600
+  interval-seconds: 60
   cron: null
   max-repeat-count: null
   end-after-date: null
