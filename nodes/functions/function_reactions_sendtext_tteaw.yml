@@ -13,6 +13,6 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{Context.getLastFunctionResult()}}"
+      value: Пришло письмо!
       filled-ai: false
   context-config: null

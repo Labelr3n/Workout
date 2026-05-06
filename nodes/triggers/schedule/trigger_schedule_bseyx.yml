@@ -2,8 +2,8 @@
 id: trigger_schedule_bseyx
 name: Планировщик
 position:
-  x: 265
-  y: -630
+  x: 266
+  y: -657
 next-step: function_reactions_sendtext_tteaw
 parameters:
   interval-seconds: 60
