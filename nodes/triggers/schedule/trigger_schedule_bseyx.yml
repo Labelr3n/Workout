@@ -4,7 +4,7 @@ name: Планировщик
 position:
   x: 266
   y: -657
-next-step: function_reactions_sendtext_tteaw
+next-step: null
 parameters:
   interval-seconds: 3600
   cron: null

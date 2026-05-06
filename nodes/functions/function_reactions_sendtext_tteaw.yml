@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_tteaw
 name: Reactions.sendText
 position:
-  x: 623
-  y: -285
+  x: 634
+  y: -472
 next-step: null
 parameters:
   type: SYSTEM
@@ -13,6 +13,6 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: Пришло письмо??
+      value: Пришло письмо!!
       filled-ai: false
   context-config: null
