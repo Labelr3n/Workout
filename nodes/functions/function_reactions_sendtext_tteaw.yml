@@ -13,6 +13,6 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: Пришло письмо!!
+      value: Пришло письмо??
       filled-ai: false
   context-config: null
