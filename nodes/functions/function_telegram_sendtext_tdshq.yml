@@ -2,8 +2,8 @@
 id: function_telegram_sendtext_tdshq
 name: Telegram.sendText
 position:
-  x: 605
-  y: -658
+  x: 584
+  y: -705
 next-step: null
 parameters:
   type: SYSTEM
@@ -21,6 +21,6 @@ parameters:
       filled-ai: false
     text:
       type: STRING
-      value: Пришло письмо1
+      value: Пришло письмо11
       filled-ai: false
   context-config: null
