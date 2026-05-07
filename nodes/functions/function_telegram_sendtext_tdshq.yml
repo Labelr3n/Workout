@@ -17,7 +17,7 @@ parameters:
       filled-ai: false
     chatId:
       type: STRING
-      value: 837249024
+      value: 837249024аы
       filled-ai: false
     text:
       type: STRING
