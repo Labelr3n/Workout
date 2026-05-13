@@ -2,8 +2,8 @@
 id: function_telegram_sendtext_tdshq
 name: Telegram.sendText
 position:
-  x: 546
-  y: -832
+  x: 584
+  y: -705
 next-step: null
 parameters:
   type: SYSTEM

@@ -1,9 +1,0 @@
----
-id: trigger_message_relhu
-name: Сообщение
-position:
-  x: 137
-  y: -1012
-next-step: null
-parameters:
-  placeholder: null
