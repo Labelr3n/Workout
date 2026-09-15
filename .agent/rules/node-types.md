@@ -71,6 +71,7 @@ An LLM-powered agent node that can use tools and hand off to other agents.
  `parameters.telephony-config.enabled` | boolean | yes | Whether telephony features are enabled for this agent |  |
  `parameters.telephony-config.fillers-phrase-config` | fillersphraseconfig | no | Filler phrases configuration (spoken while waiting for LLM) |  |
  `parameters.telephony-config.llm-response-timeout-ms` | number | no | Timeout in ms to wait for LLM response before using filler |  |
+ `parameters.telephony-config.silence-reprompt-config` | silencerepromptconfig | no | Silence reprompt configuration (reaction on caller silence after an LLM reply) |  |
 
 ## Function Node (`nodes/functions/`)
 
