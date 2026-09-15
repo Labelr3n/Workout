@@ -5,3 +5,4 @@
 * @.agent/rules/user-functions.md — user function schema and code format
 * @.agent/rules/integrations.md — integration YAML formats
 * @.agent/rules/function-list.md — all available functions (system, MCP, user)
+## AP-2889 проверка — строка пользователя, добавлена вне платформы
