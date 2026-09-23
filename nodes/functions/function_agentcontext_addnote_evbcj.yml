@@ -2,8 +2,8 @@
 id: function_agentcontext_addnote_evbcj
 name: AgentContext.addNote
 position:
-  x: 546
-  y: 347
+  x: 537
+  y: 236
 next-step: null
 next-error-step: null
 parameters:
