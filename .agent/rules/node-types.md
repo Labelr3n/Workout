@@ -33,6 +33,7 @@ An LLM-powered agent node that can use tools and hand off to other agents.
  `parameters.tools` | list | no | List of tool node IDs available to this agent |  |
  `parameters.total-response-timeout` | timeoutconfig | no | Total response timeout configuration |  |
  `parameters.unique-tools-count-limit` | number | yes | Maximum number of unique tools that can be called by the agent | 10 |
+ `parameters.use-dynamic-tools` | boolean | yes | Whether to read dynamic tool descriptors from the DynamicTools session variable on every LLM iteration |  |
 
 ### System Prompts
 
